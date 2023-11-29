@@ -44,7 +44,7 @@ if (isset($_POST['acao'])) {
                 // Verificar se a sessão de tarefas existe antes de tentar exibir
                 if (isset($_SESSION['tarefas'])) {
                     foreach ($_SESSION['tarefas'] as $key => $value) {
-                        echo '<p>' . $value . '</p>'; // Correção: Adicionado ponto e vírgula no final do echo
+                        echo '<p>' . $value . '</p>'; // Adicionado ponto e vírgula no final do echo
                     }
                 }
                 ?>
